@@ -57,44 +57,45 @@
 
             <!-- Carousel Top Banner Area Start -->
            <section>
-            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>First slide label</h5>
-                      <p>Some representative placeholder content for the first slide.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item" data-bs-interval="2000">
-                    <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Second slide label</h5>
-                      <p>Some representative placeholder content for the second slide.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Third slide label</h5>
-                      <p>Some representative placeholder content for the third slide.</p>
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
               </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                  </div>
+                  <button class="btn btn-primary">Get Started</button>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
            </section>
             <!-- Carousel Banner Area End -->
         </header>
@@ -102,26 +103,119 @@
     <!-- Main section Area Start -->
     <main class="container">
         <!-- Course area start -->
-        <section class="mt-5 text-center">
-            <div>
-                <h2>Discover Our Popular Courses</h2>
-                <p>It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
-            </div>
-        </section>
-        <!-- Course area end -->
-    <!-- Working area start -->
-        <section class="mt-5 border">
-            <div class="row">
-                <div class="col-5">
-                    <img style="width: 100%; height: 500px;" src="images/working.png" alt="">
+
+        <section class="mt-5">
+          <div class="text-center">
+            <h2>Discover Our Popular
+              Courses</h2>
+            <p>It is a long established fact that a reader will be distracted by <br> the readable
+              content of a page when looking at its layout.</p>
+          </div>
+          <div class="d-flex flex-wrap ">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="images/course/course-1.png" class="img-fluid rounded-start" alt="...">
                 </div>
-                <div class="col-7 ">
-                    <div class="mt-5 ms-5">
-                        <h2>Explore The elearning Institute</h2>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure.</p>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Fundamental Of UI/UX Design
+                    </h5>
+                    <p class="card-text">In this course you will learn zero to advanced about UI and UX design</p>
+                    <h6 class="card-text"><small>Price: 20$</small></h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style="max-width: 540px; margin-left: 10px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="images/course/course-2.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Javascript Basic to advanced</h5>
+                    <p class="card-text">In this course you will learn about basic to advanced Javascript</p>
+                    <h6 class="card-text"><small>20$</small></h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="images/course/course-3.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Fullstack Web Development</h5>
+                    <p class="card-text">In this course you will explore full stack web development</p>
+                    <h6 class="card-text"><small>20$</small></h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style="max-width: 540px; margin-left: 10px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="images/course/course-4.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Digital Marketing</h5>
+                    <p class="card-text">Digital Marketing is the new era on the planet. You will you build up your career as Digital Marketer</p>
+                    <h6 class="card-text"><small>20$</small></h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="images/course/course-5.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Photography Basic Rules</h5>
+                    <p class="card-text">This course we will explore the Photography world. You can be a professional photographer</p>
+                    <h6 class="card-text"><small>20$</small></h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style="max-width: 540px; margin-left: 10px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="images/course/course-6.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Motion Graphics</h5>
+                    <p class="card-text">Learn about motions graphics basic to advanced. You will be a motion graphics designer</p>
+                    <h6 class="card-text"><small>20$</small></h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Course area end -->
+
+    <!-- Working area start -->
+
+        <section class="mt-5 border">
+            <div class="row ms-3">
+                <div class="col-sm-12 col-lg-5">
+                    <img class="img-fluid" src="images/working.png" alt="">
+                </div>
+                <div class="col-12 col-lg-7">
+                    <div class="mt-5">
+                        <h2>Explore The e-learning Institute</h2>
+                        <p>There are many variations of passages of available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure.</p>
                         <p>Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined.</p>
                     </div>
-                    <div class="d-flex ms-5">
+                    <div class="d-flex">
                         <div class="me-2">
                             <h2>3.2k+</h2>
                             <p>Online Course</p>
@@ -135,69 +229,73 @@
                             <p>Ratings & Reviews</p>
                         </div>
                     </div>
-                    <button class="btn btn-primary ms-5">Read More</button>
+                    <button class="btn btn-primary mb-3">Read More</button>
                 </div>
             </div>
         </section>
+
     <!-- Working area end -->
 
     <!-- Register section start -->
+
         <section class="mt-5 bg-primary">
-            <div class="row">
-                <div class="col-9 mt-5">
-                    <div class="ms-5">
+            <div class="row ms-3">
+                <div class="col-12 col-md-12 col-lg-9 mt-5">
+                    <div>
                         <h2 class="text-white">Ready to join?</h2>
                         <p class="text-white">It is a long established fact that a reader will be distracted by the <br> readable content of a page when looking at its layout.</p>
                     </div>
                 </div>
-                <div class="col-3 mt-5">
-                    <button class="btn btn-light">Register Now</button>
+                <div class="col-12 col-md-12 col-lg-3 mt-5">
+                    <button class="btn btn-light mb-3">Register Now</button>
                 </div>
             </div>
         </section>
+
     <!-- Register section end -->
     <!-- Successful students area start -->
+
         <section class="mt-5">
-            <div>
-                <h2>Meet Our Successfull Students</h2>
-                <p>It is a long established fact that a reader will be distracted <br> by the readable content of a page when looking at its layout.</p>
-            </div>
-            <div class="card-group mt-5">
-                <div class="card me-2">
-                    <img class="card-img-top" src="images/student/student-1.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h4 class="card-title">Awlad Hossain</h4>
-                        <p class="card-text">UI/UX Designer</p>
-                    </div>
-                </div>
-                <div class="card me-2">
-                    <img class="card-img-top" src="images/student/student-2.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h4 class="card-title">Jannatul Islam</h4>
-                        <p class="card-text">Motion Designer</p>
-                    </div>
-                </div>
-                <div class="card me-2">
-                    <img class="card-img-top" src="images/student/student-3.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h4 class="card-title">Imran Hossain</h4>
-                        <p class="card-text">Graphics Designer</p>
-                    </div>
-                </div>
-                <div class="card me-2">
-                    <img class="card-img-top" src="images/student/student-4.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h4 class="card-title">Nishi Akter</h4>
-                        <p class="card-text">Web Developer</p>
-                    </div>
+          <div>
+            <h2>Meet Our Successful Students</h2>
+            <p>It is a long established fact that a reader will be distracted <br> by the readable content of a page when looking at its layout.</p>
+          </div>
+          <div class="card-group mt-5">
+              <div class="card me-2">
+                <img class="card-img-top" src="images/student/student-1.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">Awlad Hossain</h4>
+                    <p class="card-text">UI/UX Designer</p>
                 </div>
             </div>
+            <div class="card me-2">
+                <img class="card-img-top" src="images/student/student-2.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">Jannatul Islam</h4>
+                    <p class="card-text">Motion Designer</p>
+                </div>
+            </div>
+            <div class="card me-2">
+                <img class="card-img-top" src="images/student/student-3.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">Imran Hossain</h4>
+                    <p class="card-text">Graphics Designer</p>
+                </div>
+            </div>
+            <div class="card me-2">
+                <img class="card-img-top" src="images/student/student-4.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">Nishi Akter</h4>
+                    <p class="card-text">Web Developer</p>
+                </div>
+            </div>
+              
+          </div>
 
-            <div class="mt-5 text-center">
-                <button class="btn btn-primary">View All</button>
-            </div>
-            
-
+          <div class="mt-5 text-center">
+            <button class="btn btn-primary">View All</button>
+          </div>
+          
         </section>
     <!-- Successful students area end -->
 
@@ -320,23 +418,26 @@
 
     <!-- Company are start --> 
         <section class="mt-5">
-            <div class="text-center">
-                <h2>Trusted by over 800+ companies</h2>
-            </div>
-            <div class="mt-5 ms-5">
-                <img class="me-5" src="images/company/company-1.png" alt="">
-                <img class="me-5" src="images/company/company-2.png" alt="">
-                <img class="me-5" src="images/company/company-3.png" alt="">
-                <img class="me-5" src="images/company/company-4.png" alt="">
-                <img class="me-5" src="images/company/company-5.png" alt="">
-            </div>
+          <div class="row">
+              <div class="text-center">
+              <h2>Trusted by over 800+ companies</h2>
+              </div>
+            
+            <div class="col-sm-12 mt-5 text-center">
+                <img class="me-5 mt-4" src="images/company/company-1.png" alt="">
+                <img class="me-5 mt-4" src="images/company/company-2.png" alt="">
+                <img class="me-5 mt-4" src="images/company/company-3.png" alt="">
+                <img class="me-5 mt-4" src="images/company/company-4.png" alt="">
+                <img class="me-5 mt-4" src="images/company/company-5.png" alt="">
+             </div>
+          </div>
         </section>
     <!-- Company are end -->
     </main>
     <!-- Main section Area End -->
 
     <!-- footer area start -->
-    <footer style="width: 100%; height: 400px;" class="mt-5 bg-dark">
+    <footer style="width: 100%; height: 200px;" class="mt-5 bg-dark">
        <div class="text-center">
             <div class="mt-5">
                 <h2 class="text-white">Creative Tech Klassroom</h2>
